@@ -1,0 +1,35 @@
+.claim-section {
+    background-image: url("../assets/claim-address-bg.png");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+}
+
+.claim-content {
+    position: relative;
+    z-index: 10;
+    max-width: 600px;
+}
+
+.address-input-container {
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.address-input {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 2px solid var(--error);
+    border-radius: 0.5rem;
+    background: white;
+}
+
+.address-input input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-size: 1.1rem;
+}

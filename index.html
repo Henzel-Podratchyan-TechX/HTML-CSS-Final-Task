@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="styles/header-style.css">
+    <link rel="stylesheet" href="styles/hero-style.css">
+    <link rel="stylesheet" href="styles/section-style.css">
+    <link rel="stylesheet" href="styles/featured-listing-style.css">
+    <link rel="stylesheet" href="styles/events-style.css">
+    <link rel="stylesheet" href="styles/service-style.css">
+    <link rel="stylesheet" href="styles/locations-style.css">
+    <link rel="stylesheet" href="styles/address-style.css">
+    <link rel="stylesheet" href="styles/footer-style.css">
+    <link rel="stylesheet" href="styles/responsive-style.css">
+    <link rel="stylesheet" href="styles/icons-style.css">
+    <link rel="stylesheet" href="styles/style.css">
+
+    <title>Reverifi</title>
+    <link rel="icon" href="assets/logo-reverifi.png" type="image/x-icon">
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="assets/logo-reverifi.png" alt="Reverifi">
+                </div>
+
+                <ul class="nav-links">
+                    <li><a href="#">How we Work</a></li>
+                    <li><a href="#">Hire an Agent</a></li>
+                    <li><a href="#">Knowledge Center</a></li>
+                </ul>
+
+                <div class="auth-buttons">
+                    <a href="#" class="btn btn-ghost">Sign In</a>
+                    <a href="#" class="btn btn-primary">Join Now</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="section hero">
+            <div class="container">
+                <div class="hero-grid">
+                    <div class="hero-content">
+                        <h1>Search our listings for your next purchase</h1>
+                        <div class="search-container">
+                            <label>
+                                <input type="text" class="search-input" placeholder="Enter City, neighborhood, ZIP, or address">
+                            </label>
+                            <button class="search-btn" aria-label="Search">
+                                <span class="icon icon-search" style="color: white;"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <img src="assets/house.png" alt="Real estate illustration with house and family">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Listings Section -->
+        <section class="section section-bg">
+            <div class="container">
+                <h2 class="section-title">Our Featured Listing</h2>
+                <div class="listings-grid">
+                    <article class="listing-card">
+                        <div class="listing-image">
+                            <img src="assets/appt1.png" alt="Apartment at 2315 ST SW">
+                            <div class="badge">SALE</div>
+                            <div class="listing-actions">
+                                <button class="btn btn-icon" aria-label="Add to favorites">
+                                    <span class="icon icon-heart"></span>
+                                </button>
+                                <button class="btn btn-icon" aria-label="Share listing">
+                                    <span class="icon icon-share"></span>
+                                </button>
+                            </div>
+                            <button class="btn btn-icon" style="position: absolute; bottom: 1rem; right: 1rem;" aria-label="View photos">
+                                <span class="icon icon-camera"></span>
+                            </button>
+                        </div>
+                        <div class="listing-content">
+                            <div class="listing-header">
+                                <div>
+                                    <p style="color: var(--muted-foreground); font-size: 0.875rem;">Apartment</p>
+                                    <p style="font-weight: 500;">2315 ST SW</p>
+                                </div>
+                                <div style="text-align: right;">
+                                    <p style="color: var(--muted-foreground); font-size: 0.875rem;">Price</p>
+                                    <p class="listing-price">$30,000</p>
+                                </div>
+                            </div>
+                            <div class="listing-details">
+                                <span>3 Bed</span>
+                                <span>2 Ba</span>
+                                <span>1200 Sq</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="listing-card">
+                        <div class="listing-image">
+                            <img src="assets/appt2.png" alt="Apartment at 1817 City">
+                            <div class="badge">RENT</div>
+                            <div class="listing-actions">
+                                <button class="btn btn-icon" aria-label="Add to favorites">
+                                    <span class="icon icon-heart"></span>
+                                </button>
+                                <button class="btn btn-icon" aria-label="Share listing">
+                                    <span class="icon icon-share"></span>
+                                </button>
+                            </div>
+                            <button class="btn btn-icon" style="position: absolute; bottom: 1rem; right: 1rem;" aria-label="View photos">
+                                <span class="icon icon-camera"></span>
+                            </button>
+                        </div>
+                        <div class="listing-content">
+                            <div class="listing-header">
+                                <div>
+                                    <p style="color: var(--muted-foreground); font-size: 0.875rem;">Apartment</p>
+                                    <p style="font-weight: 500;">1817 City</p>
+                                </div>
+                                <div style="text-align: right;">
+                                    <p style="color: var(--muted-foreground); font-size: 0.875rem;">Price</p>
+                                    <p class="listing-price">$123/Month</p>
+                                </div>
+                            </div>
+                            <div class="listing-details">
+                                <span>2 Bed</span>
+                                <span>1 Ba</span>
+                                <span>850 Sq</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="listing-card">
+                        <div class="listing-image">
+                            <img src="assets/appt3.png" alt="Apartment at 2680 ST SW">
+                            <div class="badge">SALE</div>
+                            <div class="listing-actions">
+                                <button class="btn btn-icon" aria-label="Add to favorites">
+                                    <span class="icon icon-heart"></span>
+                                </button>
+                                <button class="btn btn-icon" aria-label="Share listing">
+                                    <span class="icon icon-share"></span>
+                                </button>
+                            </div>
+                            <button class="btn btn-icon" style="position: absolute; bottom: 1rem; right: 1rem;" aria-label="View photos">
+                                <span class="icon icon-camera"></span>
+                            </button>
+                        </div>
+                        <div class="listing-content">
+                            <div class="listing-header">
+                                <div>
+                                    <p style="color: var(--muted-foreground); font-size: 0.875rem;">Apartment</p>
+                                    <p style="font-weight: 500;">2680 ST SW</p>
+                                </div>
+                                <div style="text-align: right;">
+                                    <p style="color: var(--muted-foreground); font-size: 0.875rem;">Price</p>
+                                    <p class="listing-price">$30,000</p>
+                                </div>
+                            </div>
+                            <div class="listing-details">
+                                <span>4 Bed</span>
+                                <span>3 Ba</span>
+                                <span>1500 Sq</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Events Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Events</h2>
+                <div class="events-tabs">
+                    <button class="tab-btn active">All</button>
+                    <button class="tab-btn">Upcoming</button>
+                    <button class="tab-btn">Past</button>
+                </div>
+                <div class="events-grid">
+                    <article class="event-card">
+                        <div class="event-image">
+                            <img src="assets/event1.png" alt="Lorem Ipsum Event">
+                            <div class="badge">08 Oct</div>
+                        </div>
+                        <div class="event-content">
+                            <h3 style="font-weight: 600; margin-bottom: 0.75rem;">Lorem Ipsum</h3>
+                            <p style="color: var(--muted-foreground); font-size: 0.875rem; margin-bottom: 1rem;">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <p style="color: var(--muted-foreground); font-size: 0.875rem;">95 attending</p>
+                        </div>
+                    </article>
+
+                    <article class="event-card">
+                        <div class="event-image">
+                            <img src="assets/event2.png" alt="Lorem Ipsum Event">
+                            <div class="badge">08 Oct</div>
+                        </div>
+                        <div class="event-content">
+                            <h3 style="font-weight: 600; margin-bottom: 0.75rem;">Lorem Ipsum</h3>
+                            <p style="color: var(--muted-foreground); font-size: 0.875rem; margin-bottom: 1rem;">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <p style="color: var(--muted-foreground); font-size: 0.875rem;">95 attending</p>
+                        </div>
+                    </article>
+
+                    <article class="event-card">
+                        <div class="event-image">
+                            <img src="assets/event3.png" alt="Lorem Ipsum Event">
+                            <div class="badge">08 Oct</div>
+                        </div>
+                        <div class="event-content">
+                            <h3 style="font-weight: 600; margin-bottom: 0.75rem;">Lorem Ipsum</h3>
+                            <p style="color: var(--muted-foreground); font-size: 0.875rem; margin-bottom: 1rem;">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <p style="color: var(--muted-foreground); font-size: 0.875rem;">95 attending</p>
+                        </div>
+                    </article>
+
+                    <article class="event-card">
+                        <div class="event-image">
+                            <img src="assets/event4.png" alt="Lorem Ipsum Event">
+                            <div class="badge">08 Oct</div>
+                        </div>
+                        <div class="event-content">
+                            <h3 style="font-weight: 600; margin-bottom: 0.75rem;">Lorem Ipsum</h3>
+                            <p style="color: var(--muted-foreground); font-size: 0.875rem; margin-bottom: 1rem;">
+                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                            </p>
+                            <p style="color: var(--muted-foreground); font-size: 0.875rem;">95 attending</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="section section-bg">
+            <div class="container">
+                <div class="services-intro">
+                    <img src="assets/reverifiplus.png" alt="Reverifi">
+                    <p>Search their network and find your supporting team to complete the process</p>
+                    <a href="#" class="btn btn-primary">See More</a>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="assets/attorney.png" alt="Attorney" class="service-icon">
+                        <h3>Attorney</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="assets/photographer.png" alt="Photographer" class="service-icon">
+                        <h3>Photographer</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="assets/agent.png" alt="Agent" class="service-icon">
+                        <h3>Agent</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="assets/cleaning.png" alt="Cleaning Services" class="service-icon">
+                        <h3>Cleaning Services</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="assets/inspector.png" alt="Home Inspectors" class="service-icon">
+                        <h3>Home Inspectors</h3>
+                    </div>
+                    <div class="service-card">
+                        <img src="assets/insurance.png" alt="Insurance Provider" class="service-icon">
+                        <h3>Insurance Provider</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Explore Listings Section -->
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title">Explore our Listings</h2>
+
+                <div class="locations-wrapper">
+                    <div class="locations-grid">
+                        <!-- location cards here (unchanged) -->
+                        <!-- ... -->
+                        <div class="locations-grid">
+                            <div class="location-card featured">
+                                <img src="assets/new-york.png" alt="New York">
+                                <div class="location-overlay"></div>
+                                <div class="location-info">
+                                    <h3>New York</h3>
+                                    <p>2 Listings</p>
+                                </div>
+                            </div>
+                            <div class="location-card">
+                                <img src="assets/california.png" alt="California">
+                                <div class="location-overlay"></div>
+                                <div class="location-info">
+                                    <h3>California</h3>
+                                    <p>21 Listings</p>
+                                </div>
+                            </div>
+                            <div class="location-card">
+                                <img src="assets/florida.png" alt="Florida">
+                                <div class="location-overlay"></div>
+                                <div class="location-info">
+                                    <h3>Florida</h3>
+                                    <p>18 Listings</p>
+                                </div>
+                            </div>
+                            <div class="location-card">
+                                <img src="assets/hawaii.png" alt="Hawaii">
+                                <div class="location-overlay"></div>
+                                <div class="location-info">
+                                    <h3>Hawaii</h3>
+                                    <p>31 Listings</p>
+                                </div>
+                            </div>
+                            <div class="location-card">
+                                <img src="assets/alaska.png" alt="Alaska">
+                                <div class="location-overlay"></div>
+                                <div class="location-info">
+                                    <h3>Alaska</h3>
+                                    <p>6 Listings</p>
+                                </div>
+                            </div>
+                            <div class="location-card">
+                                <img src="assets/new-jersey.png" alt="New Jersey">
+                                <div class="location-overlay"></div>
+                                <div class="location-info">
+                                    <h3>New Jersey</h3>
+                                    <p>19 Listings</p>
+                                </div>
+                            </div>
+                            <div class="location-card">
+                                <img src="assets/georgia.png" alt="Georgia">
+                                <div class="location-overlay"></div>
+                                <div class="location-info">
+                                    <h3>Georgia</h3>
+                                    <p>7 Listings</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Claim Address Section -->
+        <section class="section section-bg claim-section">
+            <div class="container">
+                <div class="claim-content">
+                    <h2 style="font-size: 2rem; font-weight: bold; margin-bottom: 2rem;">
+                        Claim your Address
+                    </h2>
+                    <div class="address-input-container">
+                        <div class="address-input">
+                            <span class="icon icon-map-pin" style="color: var(--error); flex-shrink: 0;"></span>
+                            <input type="text" placeholder="Enter your address">
+                            <button class="btn btn-icon btn-primary">
+                                <span class="icon icon-search" style="color: white;"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="cta-footer">
+            <div class="container">
+                <div class="cta-content">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                        <p>Start your real estate journey with</p>
+                        <img src="assets/logo-reverifi-white.png" alt="Reverifi">
+                    </div>
+                    <a href="#" class="btn" style="background: white; color: var(--brand-green);">Join us</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <img src="assets/logo-reverifi.png" alt="Reverifi" style="height: 2rem; margin-bottom: 1rem;">
+                    <p>9165274547</p>
+                    <p>PO Box 56789</p>
+                    <p>2912 Lakewood Dr. Houston, TX 77040</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Helpful Links</h3>
+                    <a href="#">Sign In</a>
+                    <a href="#">Register</a>
+                    <a href="#">FAQ</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <a href="#">About us</a>
+                    <a href="#">Team</a>
+                    <a href="#">Terms of use</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Accessibility</a>
+                </div>
+                <div class="footer-section">
+                    <h3>Subscribe to our Newsletter</h3>
+                    <label>
+                        <input type="email" class="newsletter-input" placeholder="Enter your email">
+                    </label>
+                    <a href="#" id="sub-btn" class="btn btn-footer">Subscribe</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <img src="assets/fb-icon.png" alt="Facebook">
+                    </a>
+                    <a href="#" aria-label="Instagram">
+                        <img src="assets/ig-icon.png" alt="Instagram">
+                    </a>
+                    <a href="#" aria-label="YouTube">
+                        <img src="assets/yt-icon.png" alt="YouTube">
+                    </a>
+                    <a href="#" aria-label="LinkedIn">
+                        <img src="assets/in-icon.png" alt="LinedIn">
+                    </a>
+                </div>
+                <p style="color: #adb5bd; font-size: 0.875rem;">
+                    Copyright © 2025 Reverifi. All rights reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

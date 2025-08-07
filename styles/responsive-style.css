@@ -1,0 +1,56 @@
+@media (min-width: 768px) {
+    .nav-links {
+        display: flex;
+    }
+
+    .hero-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+
+    .location-card.featured {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .cta-content {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .footer-bottom {
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: left;
+    }
+}
+
+@media (max-width: 768px) {
+    .locations-grid {
+        display: block; /* stack content */
+    }
+
+    .location-card {
+        display: none; /* hide all by default */
+    }
+
+    .location-card:first-child {
+        display: block; /* show only the first */
+    }
+}
+
+@media (max-width: 768px) {
+    .slider-dots {
+        display: flex;
+    }
+}
+
+@media (min-width: 1024px) {
+    .services-grid {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}

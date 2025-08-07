@@ -1,0 +1,103 @@
+.footer {
+    background: var(--foreground);
+    color: white;
+    padding: 3rem 0 1rem;
+}
+
+.cta-footer {
+    background: var(--brand-green);
+    margin: 4rem -1rem 0;
+    padding: 2rem 1rem;
+}
+
+.cta-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+.cta-content img {
+    height: 2rem;
+}
+
+.cta-content p {
+    color: white;
+    font-weight: 500;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.footer-section h3 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #adb5bd;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    display: block;
+}
+
+.footer-section a:hover {
+    color: white;
+}
+
+.newsletter-input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #495057;
+    border-radius: 0.5rem;
+    background: #495057;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.newsletter-input::placeholder {
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid #495057;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+}
+
+#sub-btn {
+    background: var(--brand-green);
+    color: white;
+}
+
+#sub-btn:hover {
+    background: var(--brand-green-dark);
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.social-links a img {
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+    display: block;
+    transition: opacity 0.2s;
+}
+
+.social-links a:hover img {
+    opacity: 0.75;
+}

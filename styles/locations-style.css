@@ -1,0 +1,68 @@
+.locations-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+}
+
+.location-card {
+    position: relative;
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 200px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.location-card:hover {
+    transform: scale(1.05);
+}
+
+.location-card.featured {
+    grid-column: span 2;
+    grid-row: span 2;
+    height: 400px;
+}
+
+.location-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.locations-grid p{
+    opacity: 0.9;
+}
+
+.location-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+}
+
+.location-info {
+    position: absolute;
+    bottom: 1.5rem;
+    left: 1.5rem;
+    color: white;
+}
+
+.location-info h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.slider-dots {
+    display: none;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.slider-dots span {
+    width: 8px;
+    height: 8px;
+    background: #ccc;
+    border-radius: 50%;
+    display: inline-block;
+}

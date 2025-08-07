@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* Brand Colors */
+    --brand-green: #B2D235;
+    --brand-green-light: #aed581;
+    --brand-green-dark: #689f38;
+
+    /* Neutral Colors */
+    --background: #ffffff;
+    --header-background: #222222;
+    --header-text: #ffffff;
+    --foreground: #2c3e50;
+    --muted-background: #f8f9fa;
+    --muted-foreground: #6c757d;
+
+    /* Card & Surface Colors */
+    --card: #ffffff;
+    --surface: #f8f9fa;
+
+    /* State Colors */
+    --orange: #ff6b35;
+    --error: #dc3545;
+
+    /* Border & Input */
+    --border: #e9ecef;
+    --shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    --shadow-hover: 0 8px 32px rgba(0, 0, 0, 0.15);
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    line-height: 1.6;
+    color: var(--foreground);
+    background-color: var(--background);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
