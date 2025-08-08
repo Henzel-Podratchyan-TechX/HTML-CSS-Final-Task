@@ -35,6 +35,14 @@
     gap: 1.5rem;
 }
 
+.events-grid h3 {
+    font-weight: 600; margin-bottom: 0.75rem;
+}
+
+.events-grid p {
+    color: var(--muted-foreground); font-size: 0.875rem; margin-bottom: 1rem;
+}
+
 .event-card {
     background: var(--card);
     border-radius: 1rem;

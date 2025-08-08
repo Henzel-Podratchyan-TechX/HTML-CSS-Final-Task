@@ -1,12 +1,11 @@
 .footer {
-    background: var(--foreground);
+    background: var(--footer-background);
     color: white;
     padding: 3rem 0 1rem;
 }
 
 .cta-footer {
     background: var(--brand-green);
-    margin: 4rem -1rem 0;
     padding: 2rem 1rem;
 }
 
@@ -27,6 +26,17 @@
     font-weight: 500;
 }
 
+.cta-content div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cta-content a {
+    background: white;
+    color: var(--brand-green);
+}
+
 .footer-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -34,21 +44,27 @@
     margin-bottom: 3rem;
 }
 
+.footer-grid  #reverifi-logo {
+    height: 2rem;
+    margin-bottom: 1rem;
+}
+
 .footer-section h3 {
     font-weight: 600;
     margin-bottom: 1rem;
+    color: var(--brand-green);
 }
 
 .footer-section p,
 .footer-section a {
-    color: #adb5bd;
+    color: var(--foreground);
     text-decoration: none;
     margin-bottom: 0.5rem;
     display: block;
 }
 
 .footer-section a:hover {
-    color: white;
+    color: var(--brand-green);
 }
 
 .newsletter-input {
@@ -75,6 +91,11 @@
     text-align: center;
 }
 
+.footer-bottom #copyright {
+    color: #adb5bd;
+    font-size: 0.875rem;
+}
+
 #sub-btn {
     background: var(--brand-green);
     color: white;
@@ -82,6 +103,23 @@
 
 #sub-btn:hover {
     background: var(--brand-green-dark);
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.contact-item {
+    gap: 2rem;
+    align-items: center;
+    display: flex;
+    color: var(--foreground);
+}
+.contact-item img {
+    width: 24px;
+    height: auto;
 }
 
 .social-links {

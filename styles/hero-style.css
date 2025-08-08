@@ -2,6 +2,10 @@
     padding: 4rem 0 6rem;
 }
 
+.hero .icon-search {
+    color: white;
+}
+
 .hero-grid {
     display: grid;
     grid-template-columns: 1fr;

@@ -12,6 +12,30 @@
     transition: all 0.3s ease;
 }
 
+.listings-grid .btn-icon {
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.listings-grid .apartment {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+}
+
+.listings-grid .apt-address {
+    font-weight: 500;
+}
+
+.listings-grid .price-container {
+    text-align: right;
+}
+
+.listings-grid .price {
+    color: var(--muted-foreground);
+    font-size: 0.875rem;
+}
+
 .listing-card:hover {
     box-shadow: var(--shadow-hover);
     transform: translateY(-5px);
@@ -58,6 +82,8 @@
     justify-content: space-between;
     margin-bottom: 1rem;
 }
+
+/**/
 
 .listing-price {
     font-size: 1.25rem;

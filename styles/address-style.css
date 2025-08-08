@@ -12,9 +12,23 @@
     max-width: 600px;
 }
 
+.claim-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
 .address-input-container {
     position: relative;
     margin-bottom: 2rem;
+}
+
+.address-input-container .icon-map-pin {
+    color: var(--foreground); flex-shrink: 0;
+}
+
+.address-input-container .icon-search {
+    color: white;
 }
 
 .address-input {
@@ -22,9 +36,9 @@
     align-items: center;
     gap: 1rem;
     padding: 1rem;
-    border: 2px solid var(--error);
-    border-radius: 0.5rem;
-    background: white;
+    border: 2px solid var(--border);
+    border-radius: 2rem;
+    background: var(--background);
 }
 
 .address-input input {
