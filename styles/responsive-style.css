@@ -31,15 +31,15 @@
 
 @media (max-width: 768px) {
     .locations-grid {
-        display: block; /* stack content */
+        display: block;
     }
 
     .location-card {
-        display: none; /* hide all by default */
+        display: none;
     }
 
     .location-card:first-child {
-        display: block; /* show only the first */
+        display: block;
     }
 }
 

@@ -5,12 +5,10 @@
 }
 
 :root {
-    /* Brand Colors */
     --brand-green: #B2D235;
     --brand-green-light: #aed581;
     --brand-green-dark: #689f38;
 
-    /* Neutral Colors */
     --background: #ffffff;
     --header-background: #222222;
     --header-text: #ffffff;
@@ -19,15 +17,12 @@
     --muted-background: #f8f9fa;
     --muted-foreground: #6c757d;
 
-    /* Card & Surface Colors */
     --card: #ffffff;
     --surface: #f8f9fa;
 
-    /* State Colors */
     --orange: #ff6b35;
     --error: #dc3545;
 
-    /* Border & Input */
     --border: #e9ecef;
     --shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     --shadow-hover: 0 8px 32px rgba(0, 0, 0, 0.15);
