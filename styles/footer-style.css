@@ -70,19 +70,19 @@
 .newsletter-input {
     width: 100%;
     padding: 0.75rem;
-    border: 1px solid #495057;
-    border-radius: 0.5rem;
-    background: #495057;
+    border: 1px solid var(--background);
+    border-radius: 2rem;
+    background: var(--background);
     color: white;
     margin-bottom: 1rem;
 }
 
 .newsletter-input::placeholder {
-    color: white;
+    color: var(--foreground);
 }
 
 .footer-bottom {
-    border-top: 1px solid #495057;
+    border-top: 1px solid var(--foreground);
     padding-top: 2rem;
     display: flex;
     flex-direction: column;
@@ -92,7 +92,7 @@
 }
 
 .footer-bottom #copyright {
-    color: #adb5bd;
+    color: var(--muted-foreground);
     font-size: 0.875rem;
 }
 
